@@ -1,4 +1,5 @@
-while 0 == 0:
+show_instructions = ""
+while show_instructions != "x":
     # Ask the user if they have played before
     show_instructions = input('Have you played this game before? (Yes/No): ').lower()
 
