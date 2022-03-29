@@ -1,8 +1,6 @@
-
 # Functions
 def yes_no(question_text):
     while True:
-
 
         # Ask the user if they have played before
         answer = input(question_text).lower()
@@ -21,9 +19,10 @@ def yes_no(question_text):
         else:
             print("Error: Please put either Yes or No")
 
+
 # main routine
 show_instructions = yes_no("Have you played this game before? (Yes/No): ")
 print(f"You entered '{show_instructions}'")
 print()
-having_fun = yes_no
+having_fun = yes_no("Are you having fun? ")
 print(f"You entered '{having_fun}'")
