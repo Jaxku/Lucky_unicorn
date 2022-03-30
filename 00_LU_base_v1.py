@@ -20,11 +20,12 @@ def yes_no(question_text):
         else:
             print("Error: Please put either Yes or No")
 
+
 # function to display instructions
-def instructions ():
+def instructions():
     print("***** How to Play ***")
     print()
-    print("The rules of the gane will go here")
+    print("The rules of the game will go here")
     print()
 
 
@@ -32,7 +33,7 @@ def instructions ():
 def num_check(question, low, high):
     error = "That was not valid input\n" \
             "Please enter a number between {} and {}\n".format(low, high)
-       # Keep asking until a valid amount (1-10) is entered
+    # Keep asking until a valid amount (1-10) is entered
     while True:
         try:
             # ask for amount
@@ -45,6 +46,7 @@ def num_check(question, low, high):
 
         except ValueError:
             print(error)
+
 
 # main routine
 show_instructions = yes_no("Have you played this game before? (Yes/No): ")
