@@ -1,4 +1,4 @@
-# Took function from component -3_v1 as the basis for this new function which incorporates both yes/no and show instructions
+
 
 def yes_no(question_text):
     while True:
