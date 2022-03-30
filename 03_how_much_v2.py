@@ -7,7 +7,7 @@ valid = False
 # Keep asking until a valid amount (1-10) is entered
 while not valid:
     try:
-            # ask for amount
+        # ask for amount
     user_balance = int(input("How much would you like to play with? $"))
 
     # check if the amount is too high/low
@@ -18,4 +18,4 @@ while not valid:
         print(error)
 
     expect ValueError:
-        print(error)
+    print(error)
