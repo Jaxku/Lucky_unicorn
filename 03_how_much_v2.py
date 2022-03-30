@@ -16,6 +16,5 @@ while not valid:
         valid = True
     else:
         print(error)
-
-    expect ValueError:
-    print(error)
+    except ValueError:
+        print("Try again")
