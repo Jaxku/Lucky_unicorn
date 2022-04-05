@@ -1,1 +1,2 @@
-print("Hello")
+ if input = " ":
+    print("Enter key pressed")
