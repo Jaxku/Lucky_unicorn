@@ -16,7 +16,7 @@ for item in range(20):
         balance += 4
     elif token == "donkey":
         balance -= 1
-    elif token == "horse" or "zebra":  # could just use a normal else statement instead which would be better if more tokens took off 50 cents, but I kept it like this, so I am able to see which ones are taking money off.
+    else:
         balance -= .50
 
     # Output
