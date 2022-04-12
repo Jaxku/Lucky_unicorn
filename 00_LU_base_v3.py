@@ -141,7 +141,7 @@ if show_instructions == "No":
     instructions()
 
 # calls function to ask user how much they want to spend on the game
-starting_balance = num_check("How much would you like to play with? $", 1, 10)
+starting_balance = num_check("How much would you like to play with? ($1-$10) $", 1, 10)
 print(f"You are playing with ${starting_balance}")
 
 closing_balance = generate_token(starting_balance)
