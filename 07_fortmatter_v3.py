@@ -12,7 +12,12 @@ def formatter(symbol, text):
 
 
 # main routine
-text1 = input("Enter the statement you want to format: ")
-symbol1 = input("What symbol do you want use: ")
+print(formatter("-", "Welcome to the Lucky Unicorn Game"))
 print()
-print(formatter(symbol1, text1))
+print(formatter("!", "Congratulations, you got a unicorn"))
+print()
+print(formatter("*", "Goodbye"))
+print(formatter("Z", "Ouch! you got a Zebra"))
+print()
+print(formatter("（｡≧◇≦）ﾉ", "A donkey pushed you over!"))
+print()
