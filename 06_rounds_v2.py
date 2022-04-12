@@ -16,7 +16,7 @@ play_again = " "
 # Testing loop to generate 5 tokens
 while play_again != "x":
     rounds_played += 1 # keep track of rounds
-    number = random.randint(6, 36) # can only be donkey
+    number = random.randint(1, 100)  # can only be donkey
 
     # adjust balance
     # if the random number is between 1 and 5
