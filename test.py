@@ -1,2 +1,1 @@
- if input = " ":
-    print("Enter key pressed")
+print("$" * 3)
