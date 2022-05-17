@@ -119,6 +119,7 @@ def generate_token(balance):
             play_again = input("\nDo you want to play another round?\n<enter> to play "
                                "again or 'x' to exit: ").lower()
         print()
+        return balance
 
 
 # function to format text output
